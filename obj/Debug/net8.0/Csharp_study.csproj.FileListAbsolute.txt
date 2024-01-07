@@ -1,0 +1,14 @@
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\bin\Debug\net8.0\Csharp_study.exe
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\bin\Debug\net8.0\Csharp_study.deps.json
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\bin\Debug\net8.0\Csharp_study.runtimeconfig.json
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\bin\Debug\net8.0\Csharp_study.dll
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\bin\Debug\net8.0\Csharp_study.pdb
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.AssemblyInfoInputs.cache
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.AssemblyInfo.cs
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.csproj.CoreCompileInputs.cache
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.dll
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\refint\Csharp_study.dll
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.pdb
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.genruntimeconfig.cache
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\ref\Csharp_study.dll

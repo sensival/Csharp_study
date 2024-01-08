@@ -1,4 +1,5 @@
 using System;
+using Ex_1_datatype;
 
 namespace Csharp_study
 {
@@ -6,11 +7,11 @@ namespace Csharp_study
     {
         public static void Main()
         {
-            Ex_1_datatype.print_test testInstance = new Ex_1_datatype.print_test();
+            print_test testInstance = new print_test();
             testInstance.printMsg();
             testInstance.print_repetitive();
 
-            Ex_1_datatype.data_types dataInstance = new Ex_1_datatype.data_types();
+            data_types dataInstance = new data_types();
             dataInstance.printMax();
             dataInstance.printMin();
         }

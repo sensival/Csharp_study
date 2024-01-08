@@ -1,20 +1,24 @@
 ﻿using System;
 
-class Program
-{
-
-    public static void Main()
-    {
-        Console.WriteLine("HelloWorld!");
-        Console.WriteLine("어서오세요 C#으로!");
-        
-        for( int i1 = 0; i1 < 5; i1++)
+namespace Ex_1_datatype{
+   public class print_test
+   {
+        public void printMsg() //메세지 출력
         {
-            Console.WriteLine(i1);
-            
+            Console.WriteLine("HelloWorld!");
+            Console.WriteLine("어서오세요 C#으로!");
+        }
+        public void print_repetitive() //반복문 출력
+        {
+            for( int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(i);
+            }
         }
 
-         // 데이터 타입
+   } 
+    public class data_types // 데이터 타입
+    {
             // Bool
             bool b = true ; //or false, 디폴트 리터럴 타입
 
@@ -44,26 +48,31 @@ class Program
 
             // 최대값, 최소값
             int i2 = int.MaxValue;
-            System.Console.WriteLine(i);
+            public void printMax()
+            {
+                 System.Console.WriteLine(i2);
+            }
             float f2 = float.MinValue;
-            System.Console.WriteLine(f);
+            public void printMin()
+            {
+                 System.Console.WriteLine(f2);
 
+            }
+            
             // NULL을 가질 수 있는 타입 (Reference 타입, heap에 저장): 클래스타입, string, array
-            string s2;
-            s2 = null;
-           
+            string s2 = null;
+
             // NULL을 가질 수 없는 타입 (Value 타입, stack에 저장): 정수형(int, short, byte), 부동소수점형(bouble, float), 불리언(bool), 문자(char), 구조체(struct), 열거형(enum) 
             // Nullable 타입으로 변환하려면 자료형 뒤에?
             int? i3 = null;
-            i3 = 101;
                         
             bool? b2 = null;
 
             //int? 를 int로 할당
             Nullable<int> j = null; //Nullable<int>나 int? 이나 같다.
-            j = 10;
-            int k = j.Value;
+            // j = 10;
+            // int k = j.Value;
 
-  
     }
+
 }

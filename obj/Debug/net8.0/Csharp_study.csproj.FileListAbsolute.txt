@@ -12,3 +12,4 @@ C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\refint\Cshar
 C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.pdb
 C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.genruntimeconfig.cache
 C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\ref\Csharp_study.dll
+C:\Users\wogns\OneDrive\바탕 화면\Csharp_study\obj\Debug\net8.0\Csharp_study.sourcelink.json

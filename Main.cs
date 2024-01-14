@@ -1,5 +1,6 @@
 using System;
 using Ex_1_datatype;
+using Ex_2_variable;
 
 namespace Csharp_study
 {
@@ -7,13 +8,13 @@ namespace Csharp_study
     {
         public static void Main()
         {
-            print_test testInstance = new print_test();
-            testInstance.printMsg();
-            testInstance.print_repetitive();
+            CSVar1 csvar1 = new CSVar1();
+            csvar1.printVar();
 
-            data_types dataInstance = new data_types();
-            dataInstance.printMax();
-            dataInstance.printMin();
+            CSVar2 csvar2 = new CSVar2();
+            Console.WriteLine(csvar2.Max2Value); 
+
+            
         }
     }
 }

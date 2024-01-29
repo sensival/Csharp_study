@@ -32,7 +32,11 @@ namespace Ex_2_variable
         {
             Max2 = 1;
         }
-        public int Max2Value // 프로퍼티 추가
+        public int Max2Value // 읽기전용 프로퍼티 추가
+        /*
+        프로퍼티?  프로퍼티는 클래스의 인스턴스 변수에 간접적으로 접근할 수 있는 멤버입니다.
+        간단히 말해, 클래스 외부에서 클래스의 내부 상태를 읽거나 변경할 수 있도록 하는 방법 중 하나입니다.
+         */
         {
             get { return Max2; }
         }

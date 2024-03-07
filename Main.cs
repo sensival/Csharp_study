@@ -4,6 +4,7 @@ using Ex_1_datatype;
 using Ex_2_variable;
 using Ex_3_array;
 using Ex_4_String;
+using static Ex_5_enum.enum_class;
 
 namespace Csharp_study
 {
@@ -11,6 +12,34 @@ namespace Csharp_study
     {
         public static void Main()
         {
+            City myCity;
+
+            // enum 타입에 값을 대입하는 방법
+            myCity = City.Seoul;
+
+            // enum을 int로 변환(Casting)하는 방법.
+            // (int)를 앞에 지정.
+            int cityValue = (int)myCity;
+
+            if (myCity == City.Seoul) // enum 값을 비교하는 방법
+            {
+                Console.WriteLine("Welcome to Seoul");
+            }
+
+            // OR 연산자로 다중 플래그 할당 1 | 100
+            Border b = Border.Top | Border.Bottom; // 101
+
+            // & 연산자로 플래그 체크
+            if ((b & Border.Top) != 0) //101 & 1 == 1
+            {
+                //HasFlag()이용 플래그 체크
+                if (b.HasFlag(Border.Bottom))
+                {
+                    // "Top, Bottom" 출력--> ToString
+                    Console.WriteLine(b.ToString());
+                }
+            }
+            /*
             // 문자열(string) 변수
             string s1 = "C#";
             string s2 = "Programming";
@@ -48,6 +77,7 @@ namespace Csharp_study
 
             StringBuilder sb = new StringBuilder();
             a.strBd(sb);
+            */
         }
     }
 }

@@ -4,7 +4,9 @@ using Ex_1_datatype;
 using Ex_2_variable;
 using Ex_3_array;
 using Ex_4_String;
+using Ex_6_operator;
 using static Ex_5_enum.enum_class;
+using static Ex_6_operator.operator_cls;
 
 namespace Csharp_study
 {
@@ -12,6 +14,12 @@ namespace Csharp_study
     {
         public static void Main()
         {
+            string str = null;
+            operator_cls op_a = new operator_cls();
+            op_a.doublequestion(str);
+            
+
+            /*
             City myCity;
 
             // enum 타입에 값을 대입하는 방법
@@ -39,6 +47,8 @@ namespace Csharp_study
                     Console.WriteLine(b.ToString());
                 }
             }
+            */
+
             /*
             // 문자열(string) 변수
             string s1 = "C#";
